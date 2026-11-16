@@ -36,7 +36,7 @@ const projects = [
         title: 'Chicken Disease Detection Using Deep Learning', icon: 'fa-feather',
         categories: ['Deep Learning', 'Computer Vision'],
         description: 'A deep learning project for detecting chicken disease from images.',
-        technologies: 'Deep Learning, Computer Vision', status: 'Repository available',
+        technologies: 'Deep Learning, Computer Vision', status: 'Completed',
         githubUrl: GH + 'Chicken-Disease-Detection',
         details: {}
     },
@@ -44,7 +44,7 @@ const projects = [
         title: 'Dhaka House Price Prediction', icon: 'fa-house',
         categories: ['Machine Learning'],
         description: 'A machine learning project for predicting house prices in Dhaka, organised as a modular Python package with a web app and Docker support.',
-        technologies: 'Python, Machine Learning, Docker, MLOps', status: 'Repository available',
+        technologies: 'Python, Machine Learning, Docker, MLOps', status: 'Completed',
         githubUrl: GH + 'dhaka-house-price-predictions',
         details: {
             architecture: 'Repository layout: src/house_price_prediction package, config and params.yaml, notebook, templates, app.py, Dockerfile.',
@@ -55,7 +55,7 @@ const projects = [
         title: 'AI-Based Fraud Detection System', icon: 'fa-shield-halved',
         categories: ['Machine Learning', 'Artificial Intelligence'],
         description: 'A machine learning application designed to identify potentially fraudulent financial transactions using classification algorithms.',
-        technologies: 'Python, Scikit-learn, Pandas, Machine Learning, Fraud classification', status: 'In Progress', githubUrl: '',
+        technologies: 'Python, Scikit-learn, Pandas, Machine Learning, Fraud classification', status: 'Completed', githubUrl: '',
         details: {
             problem: 'Identify potentially fraudulent financial transactions using classification algorithms.',
             features: ['Data preprocessing', 'Exploratory data analysis', 'Fraud prediction', 'Machine learning model comparison', 'Model evaluation', 'Interactive dashboard']
@@ -75,7 +75,7 @@ const projects = [
         title: 'AI Video Assistant with RAG', icon: 'fa-video',
         categories: ['Artificial Intelligence', 'NLP & RAG'],
         description: 'An AI-powered application that allows users to interact with video content and ask questions based on video transcripts using Retrieval-Augmented Generation.',
-        technologies: 'Python, LangChain, FAISS, Whisper, Retrieval-Augmented Generation', status: 'In Progress',
+        technologies: 'Python, LangChain, FAISS, Whisper, Retrieval-Augmented Generation', status: 'Completed',
         githubUrl: GH + 'AI-Video-Assistant-RAG',
         details: {
             problem: 'Allow users to ask questions about video content based on its transcript.',
@@ -86,7 +86,7 @@ const projects = [
         title: 'AI Interview Assistant with RAG', icon: 'fa-user-tie',
         categories: ['Artificial Intelligence', 'NLP & RAG'],
         description: 'An AI-powered interview preparation assistant designed to help users practice interviews and retrieve relevant information through a RAG-based architecture.',
-        technologies: 'Python, LLM, RAG, Streamlit', status: 'In Progress',
+        technologies: 'Python, LLM, RAG, Streamlit', status: 'Completed',
         githubUrl: GH + 'AI-Interview-Assistant',
         details: {
             problem: 'Help users practise interviews and retrieve relevant information.',
