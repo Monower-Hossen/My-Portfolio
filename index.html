@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monower Hossen - AI/ML Engineer Portfolio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Monower Hossen - AI/ML Engineer portfolio featuring Machine Learning, Deep Learning, and Generative AI projects. Building intelligent solutions with Python, TensorFlow, PyTorch, and LangChain.">
+    <meta name="keywords" content="AI, ML, Machine Learning, Deep Learning, Generative AI, Python, TensorFlow, PyTorch, LangChain, portfolio">
+    <meta name="author" content="Monower Hossen">
+    <meta name="theme-color" content="#080B14">
+    <link rel="canonical" href="https://monower-hossen.github.io/">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Monower Hossen - AI/ML Engineer Portfolio">
+    <meta property="og:description" content="Monower Hossen - AI/ML Engineer building intelligent solutions with Machine Learning and Generative AI.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://monower-hossen.github.io">
+    <meta property="og:image" content="https://monower-hossen.github.io/assets/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Monower Hossen Portfolio">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Monower Hossen - AI/ML Engineer Portfolio">
+    <meta property="twitter:description" content="Monower Hossen - AI/ML Engineer building intelligent solutions with Machine Learning and Generative AI.">
+    <meta property="twitter:image" content="https://monower-hossen.github.io/assets/images/og-image.png">
+</head>
+<body>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+    
+    <!-- =========================
+       NAVIGATION
+       ========================= -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a href="#home" class="navbar-logo">Monower Hossen</a>
+            
+            <div class="navbar-menu" id="navbarMenu">
+                <a href="#home" class="navbar-link">Home</a>
+                <a href="#about" class="navbar-link">About</a>
+                <a href="#skills" class="navbar-link">Skills</a>
+                <a href="#projects" class="navbar-link">Projects</a>
+                <a href="#github" class="navbar-link">GitHub</a>
+                <a href="#blog" class="navbar-link">Blog</a>
+                <a href="#resume" class="navbar-link">CV</a>
+                <a href="#contact" class="navbar-link">Contact</a>
+            </div>
+            
+            <div class="navbar-actions">
+                <button class="navbar-hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navbarMenu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- =========================
+       HERO SECTION
+       ========================= -->
+    <header class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-badge">HELLO, I'M</div>
+            <h1 class="hero-name">Monower Hossen</h1>
+            <p class="hero-title">Aspiring AI/ML Engineer</p>
+            <p class="hero-headline">Building Intelligent Systems with AI &amp; Data</p>
+            <p class="hero-description">I build intelligent applications, explore machine learning algorithms, and develop AI-powered solutions that solve real-world problems.</p>
+            
+            <div class="hero-availability">
+                <span>Open to AI/ML Opportunities</span>
+            </div>
+            
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="assets/resume/Monower_Hossen_Resume.pdf" download class="btn btn-secondary">Download CV</a>
+                <a href="#contact" class="btn btn-tertiary">Contact Me</a>
+            </div>
+            
+            <div class="hero-social">
+                <a href="https://github.com/Monower-Hossen" target="_blank" rel="noopener" class="social-link" aria-label="GitHub profile">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/monower-hossen1" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn profile">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:aiwithmonower@gmail.com" class="social-link" aria-label="Send email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Hero Visual: Neural Network Inspired SVG -->
+        <div class="hero-visual">
+            <svg class="neural-network" viewBox="0 0 100 100" aria-hidden="true">
+                <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#38BDF8"/>
+                        <stop offset="100%" stop-color="#6366F1"/>
+                    </linearGradient>
+                </defs>
+                <circle cx="30" cy="30" r="8" fill="url(#grad1)">
+                    <animate attributeName="cy" values="30;70;30" dur="4s" repeatCount="indefinite"/>
+                </circle>
+                <circle cx="70" cy="70" r="8" fill="url(#grad1)">
+                    <animate attributeName="cx" values="70;30;70" dur="5s" repeatCount="indefinite"/>
+                </circle>
+                <circle cx="30" cy="70" r="6" fill="#8B5CF6">
+                    <animate attributeName="r" values="6;8;6" dur="3.5s" repeatCount="indefinite"/>
+                </circle>
+                <circle cx="70" cy="30" r="6" fill="#EC4899">
+                    <animate attributeName="r" values="6;8;6" dur="4.5s" repeatCount="indefinite"/>
+                </circle>
+                <line x1="30" y1="30" x2="70" y2="70" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1">
+                    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+                </line>
+                <line x1="30" y1="70" x2="70" y2="30" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1">
+                    <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/>
+                </line>
+            </svg>
+        </div>
+    </header>
+    
+    <!-- =========================
+       ABOUT ME SECTION
+       ========================= -->
+    <section class="about" id="about">
+        <div class="section-header">
+            <span class="section-tag">About Me</span>
+            <h2 class="section-title">Monower Hossen</h2>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am a Computer Science and Engineering student focused on Artificial Intelligence and Machine Learning, with project work in Deep Learning, NLP, Large Language Models, Retrieval-Augmented Generation and Multi-Agent AI systems.</p>
+                <p>I enjoy turning ideas into working applications, from model training to API deployment, and I am building skills in ML engineering and MLOps. I am committed to continuous learning and curious about research.</p>
+                
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <div class="highlight-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Machine Learning &amp; Data Science</h3>
+                        <p>Building intelligent systems with supervised and unsupervised learning, model evaluation, and data preprocessing pipelines.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>Generative AI &amp; LLM Applications</h3>
+                        <p>Developing chatbots, content generators, and RAG-based applications using LangChain, LangGraph, and modern LLM frameworks.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h3>Real-World AI Project Development</h3>
+                        <p>End-to-end ML project lifecycle: from data collection and feature engineering to model deployment and interactive interfaces.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-image">
+                <img src="assets/images/profile.jpg" alt="Monower Hossen - Aspiring AI/ML Engineer profile photograph" class="profile-photo" loading="lazy" decoding="async">
+                <div class="image-placeholder" aria-label="Monower Hossen professional profile image" style="display: none;">
+                    <div class="placeholder-content">
+                        <i class="fas fa-user-tie" style="font-size: 80px; color: #38BDF8;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- =========================
+       TECHNICAL SKILLS SECTION
+       ========================= -->
+    <section class="skills" id="skills">
+        <div class="section-header">
+            <span class="section-tag">Technical Expertise</span>
+            <h2 class="section-title">Skills</h2>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category">
+                <div class="category-header"><i class="fas fa-code category-icon" aria-hidden="true"></i><span>Programming &amp; Web</span></div>
+                <ul class="skill-list">
+                    <li><span><i class="fab fa-html5" aria-hidden="true"></i> HTML5</span></li>
+                    <li><span><i class="fab fa-css3-alt" aria-hidden="true"></i> CSS3</span></li>
+                    <li><span><i class="fab fa-python" aria-hidden="true"></i> Python</span></li>
+                    <li><span><i class="fab fa-js" aria-hidden="true"></i> JavaScript</span></li>
+                    <li><span><i class="fas fa-database" aria-hidden="true"></i> SQL</span></li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <div class="category-header"><i class="fas fa-brain category-icon" aria-hidden="true"></i><span>AI &amp; Machine Learning</span></div>
+                <ul class="skill-list">
+                    <li><span>Machine Learning</span></li>
+                    <li><span>Deep Learning</span></li>
+                    <li><span>Natural Language Processing</span></li>
+                    <li><span>Computer Vision</span></li>
+                    <li><span>Large Language Models</span></li>
+                    <li><span>Retrieval-Augmented Generation</span></li>
+                    <li><span>Multi-Agent Systems</span></li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <div class="category-header"><i class="fas fa-cubes category-icon" aria-hidden="true"></i><span>Frameworks &amp; Libraries</span></div>
+                <ul class="skill-list">
+                    <li><span>PyTorch</span></li>
+                    <li><span>TensorFlow</span></li>
+                    <li><span>Scikit-learn</span></li>
+                    <li><span>LangChain</span></li>
+                    <li><span>FastAPI</span></li>
+                    <li><span>Flask</span></li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <div class="category-header"><i class="fas fa-tools category-icon" aria-hidden="true"></i><span>Tools &amp; Technologies</span></div>
+                <ul class="skill-list">
+                    <li><span><i class="fab fa-git-alt" aria-hidden="true"></i> Git</span></li>
+                    <li><span><i class="fab fa-github" aria-hidden="true"></i> GitHub</span></li>
+                    <li><span><i class="fab fa-docker" aria-hidden="true"></i> Docker</span></li>
+                    <li><span>MLflow</span></li>
+                    <li><span>DVC</span></li>
+                    <li><span>Uvicorn</span></li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <div class="category-header"><i class="fas fa-project-diagram category-icon" aria-hidden="true"></i><span>Vector Databases</span></div>
+                <ul class="skill-list">
+                    <li><span>FAISS</span></li>
+                    <li><span>ChromaDB</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- =========================
+       FEATURED PROJECTS SECTION
+       ========================= -->
+    <section class="projects" id="projects">
+        <div class="section-header">
+            <span class="section-tag">Projects</span>
+            <h2 class="section-title">Projects That Demonstrate My Skills</h2>
+        </div>
+        <div class="project-tools">
+            <div class="filter-bar" id="filterBar" role="group" aria-label="Filter projects by category"></div>
+            <label class="visually-hidden" for="projectSearch">Search projects</label>
+            <input type="search" id="projectSearch" class="form-input project-search" placeholder="Search projects or technologies">
+        </div>
+        <div class="projects-grid" id="projectsGrid">
+            <!-- Project cards will be generated by JavaScript -->
+        </div>
+        <p class="no-results" id="noResults" hidden>No projects match your search.</p>
+        <dialog class="project-modal" id="projectModal" aria-labelledby="modalTitle"></dialog>
+    </section>
+    
+    <!-- =========================
+       EDUCATION SECTION
+       ========================= -->
+    <section class="education" id="education">
+        <div class="section-header">
+            <span class="section-tag">Education</span>
+            <h2 class="section-title">Education</h2>
+        </div>
+        <div class="education-timeline" id="educationTimeline">
+            <!-- Education entries will be generated by JavaScript -->
+        </div>
+    </section>
+    
+    <!-- =========================
+       CERTIFICATIONS &amp; LEARNING SECTION
+       ========================= -->
+    <section class="certifications" id="certifications">
+        <div class="section-header">
+            <span class="section-tag">Certifications</span>
+            <h2 class="section-title">Certifications &amp; Continuous Learning</h2>
+        </div>
+        <div class="certifications-grid" id="certificationsGrid">
+            <!-- Certification entries will be generated by JavaScript -->
+        </div>
+    </section>
+    
+    <!-- =========================
+       GITHUB &amp; PROFESSIONAL PROFILES SECTION
+       ========================= -->
+    <section class="github-activity" id="github">
+        <div class="section-header">
+            <span class="section-tag">Open Source</span>
+            <h2 class="section-title">GitHub Activity</h2>
+        </div>
+        <div class="github-stats" id="githubStats" aria-live="polite"><p class="gh-note">Loading public GitHub data…</p></div>
+        <div class="github-calendar">
+            <img src="https://ghchart.rshah.org/38BDF8/Monower-Hossen" alt="GitHub contribution calendar for Monower-Hossen" loading="lazy" onerror="this.closest('.github-calendar').hidden=true">
+        </div>
+        <div class="github-repos" id="githubRepos"></div>
+        <p class="gh-note"><a class="profile-link" href="https://github.com/Monower-Hossen" target="_blank" rel="noopener">View full GitHub profile</a></p>
+    </section>
+
+    <section class="blog" id="blog">
+        <div class="section-header">
+            <span class="section-tag">Technical Blog</span>
+            <h2 class="section-title">Upcoming Articles</h2>
+        </div>
+        <div class="blog-grid" id="blogGrid"></div>
+    </section>
+
+    <section class="availability" id="availability">
+        <div class="availability-card">
+            <h2 class="section-title">Career Availability</h2>
+            <p class="availability-badge"><i class="fas fa-circle" aria-hidden="true"></i> Open to AI/ML Opportunities</p>
+        </div>
+    </section>
+
+    <section class="profiles" id="profiles">
+        <div class="section-header">
+            <span class="section-tag">Professional Profiles</span>
+            <h2 class="section-title">GitHub &amp; Professional Profiles</h2>
+        </div>
+        <div class="profiles-grid">
+            <div class="profile-card">
+                <div class="profile-icon">
+                    <i class="fab fa-github"></i>
+                </div>
+                <h3>GitHub</h3>
+                <p>github.com/Monower-Hossen</p>
+                <a href="https://github.com/Monower-Hossen" target="_blank" rel="noopener" class="profile-link">
+                    View Profile
+                </a>
+            </div>
+            <div class="profile-card">
+                <div class="profile-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+                <h3>LinkedIn</h3>
+                <p>linkedin.com/in/monower-hossen1</p>
+                <a href="https://www.linkedin.com/in/monower-hossen1" target="_blank" rel="noopener" class="profile-link">
+                    View Profile
+                </a>
+            </div>
+            <div class="profile-card">
+                <div class="profile-icon">
+                    <i class="fab fa-kaggle"></i>
+                </div>
+                <h3>Kaggle</h3>
+                <p>kaggle.com/MonowerHossen</p>
+                <a href="https://www.kaggle.com/MonowerHossen" target="_blank" rel="noopener" class="profile-link">
+                    View Profile
+                </a>
+            </div>
+            <div class="profile-card">
+                <div class="profile-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>Hugging Face</h3>
+                <p>huggingface.co/MonowerHossen</p>
+                <a href="https://huggingface.co/MonowerHossen" target="_blank" rel="noopener" class="profile-link">
+                    View Profile
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- =========================
+       RESUME SECTION
+       ========================= -->
+    <section class="resume" id="resume">
+        <div class="section-header">
+            <span class="section-tag">Resume</span>
+            <h2 class="section-title">Let's Explore My Experience</h2>
+        </div>
+        <div class="resume-content">
+            <div class="resume-download">
+                <a href="assets/resume/Monower_Hossen_Resume.pdf" download class="btn btn-primary btn-large">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+            <a href="assets/resume/Monower_Hossen_Resume.pdf" target="_blank" rel="noopener" class="btn btn-secondary btn-large">
+                <i class="fas fa-eye"></i> Open Resume
+            </a>
+        </div>
+    </section>
+    
+    <!-- =========================
+       CONTACT SECTION
+       ========================= -->
+    <section class="contact" id="contact">
+        <div class="section-header">
+            <span class="section-tag">Contact</span>
+            <h2 class="section-title">Let's Build Something Intelligent Together.</h2>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-card-icon"><i class="fas fa-phone" aria-hidden="true"></i></div>
+                    <h3>Phone</h3>
+                    <a href="tel:01700556894" class="contact-link" aria-label="Call Monower Hossen at 01700556894">01700556894</a>
+                    <div class="contact-actions">
+                        <a href="tel:01700556894" class="btn btn-primary"><i class="fas fa-phone" aria-hidden="true"></i> Call Now</a>
+                        <a href="mailto:aiwithmonower@gmail.com" class="btn btn-secondary"><i class="fas fa-envelope" aria-hidden="true"></i> Email Me</a>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <a href="mailto:aiwithmonower@gmail.com" class="contact-link">aiwithmonower@gmail.com</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/monower-hossen1" target="_blank" rel="noopener" class="contact-link">linkedin.com/in/monower-hossen1</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/Monower-Hossen" target="_blank" rel="noopener" class="contact-link">github.com/Monower-Hossen</a>
+                </div>
+            </div>
+            
+            <form class="contact-form" id="contactForm" novalidate>
+                <div class="form-group">
+                    <label class="form-label" for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" class="form-input" autocomplete="name" placeholder="Your full name" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="email">Email Address</label>
+                    <input type="email" id="email" name="email" class="form-input" autocomplete="email" placeholder="you@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" class="form-input" placeholder="Project inquiry or collaboration idea" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="message">Message</label>
+                    <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+                </div>
+                <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+                <button type="submit" class="btn btn-primary btn-wide">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- =========================
+       FOOTER
+       ========================= -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-text">
+                <strong>Monower Hossen</strong> · Aspiring AI/ML Engineer<br>
+                <a href="tel:01700556894">01700556894</a> · <a href="mailto:aiwithmonower@gmail.com">aiwithmonower@gmail.com</a><br>
+                © <span id="year">2026</span> Monower Hossen. All rights reserved.
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/Monower-Hossen" target="_blank" rel="noopener" class="footer-link" aria-label="GitHub profile">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/monower-hossen1" target="_blank" rel="noopener" class="footer-link" aria-label="LinkedIn profile">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:aiwithmonower@gmail.com" class="footer-link" aria-label="Send email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        
+        <button class="back-to-top" id="backToTop" aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </footer>
+    
+    <!-- =========================
+       JAVASCRIPT FILES
+       ========================= -->
+    <script src="js/main.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/github.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

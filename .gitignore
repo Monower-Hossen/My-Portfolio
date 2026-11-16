@@ -1,0 +1,11 @@
+# Environment
+.env
+
+# IDE
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store

@@ -1,0 +1,122 @@
+/* ============================================
+   SCROLL REVEAL (classes are added by js/animations.js,
+   so content stays visible if JavaScript is unavailable)
+   ============================================ */
+.reveal {
+    transition: opacity 0.6s ease, transform 0.6s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.reveal:not(.revealed) {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+/* ============================================
+   HOVER ANIMATIONS
+   ============================================ */
+.project-card:hover .project-image i {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+/* ============================================
+   HERO PARTICLES
+   ============================================ */
+.hero-visual::before,
+.hero-visual::after {
+    content: '';
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    filter: blur(8px);
+    pointer-events: none;
+    animation: particle 6s ease-in-out infinite;
+}
+
+.hero-visual::before {
+    top: 10%;
+    left: 10%;
+    background: rgba(56, 189, 248, 0.25);
+}
+
+.hero-visual::after {
+    bottom: 10%;
+    right: 10%;
+    background: rgba(139, 92, 246, 0.25);
+    animation-delay: 3s;
+}
+
+.hero-particle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: var(--accent-primary);
+    pointer-events: none;
+    animation: floatParticle 8s ease-in-out infinite;
+}
+
+@keyframes particle {
+    0%, 100% {
+        transform: translate(0, 0) scale(1);
+        opacity: 0.5;
+    }
+    50% {
+        transform: translate(30px, -30px) scale(1.2);
+        opacity: 0.8;
+    }
+}
+
+@keyframes floatParticle {
+    0%, 100% {
+        transform: translateY(0);
+        opacity: 0.3;
+    }
+    50% {
+        transform: translateY(-20px);
+        opacity: 0.9;
+    }
+}
+
+/* ============================================
+   CONTACT FORM ANIMATIONS
+   ============================================ */
+.form-input:focus,
+.form-textarea:focus {
+    animation: inputFocus 0.3s ease;
+}
+
+@keyframes inputFocus {
+    from { box-shadow: 0 0 0 1px var(--accent-primary); }
+    to { box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.1); }
+}
+
+/* ============================================
+   NAVIGATION ACTIVE STATE
+   ============================================ */
+.navbar-link.active {
+    color: var(--accent-primary);
+}
+
+.navbar-link.active::after {
+    width: 100%;
+}
+
+/* ============================================
+   REDUCED MOTION
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
