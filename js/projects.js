@@ -13,7 +13,7 @@ const projects = [
         title: 'Multi-Agent AI Research System', icon: 'fa-users-gear',
         categories: ['Artificial Intelligence', 'NLP & RAG'],
         description: 'A multi-agent system that turns a research query into a structured Markdown report, exposed through a FastAPI REST API.',
-        technologies: 'Python, FastAPI, Uvicorn, LangChain, Pydantic', status: 'Repository available',
+        technologies: 'Python, FastAPI, Uvicorn, LangChain, Pydantic', status: 'Completed',
         githubUrl: GH + 'Multi-Agent-AI-Research-System',
         details: {
             problem: 'Producing a well-structured research report from a single query involves several separate steps: searching, summarising, checking and writing.',
@@ -26,7 +26,7 @@ const projects = [
         title: 'Fingerprint-Based Blood Group Detection', icon: 'fa-fingerprint',
         categories: ['Deep Learning', 'Computer Vision'],
         description: 'An experimental research prototype exploring blood group prediction from fingerprint images. It is not a medically validated diagnostic method.',
-        technologies: 'Deep Learning, Computer Vision', status: 'Experimental prototype',
+        technologies: 'Deep Learning, Computer Vision', status: 'Completed',
         githubUrl: GH + 'Fingerprint-Blood-Group-Detection',
         details: {
             limitations: ['Experimental research prototype only.', 'Not a medically validated diagnostic method and must not be used for medical decisions.']
